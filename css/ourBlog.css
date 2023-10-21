@@ -1,0 +1,104 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./default.css");
+@import url("./helper.css");
+@import url("./preloadAnimation.css");
+@import url("./searchBox.css");
+@import url("./navbar.css");
+@import url("./bottomBar.css");
+@import url("./footer.css");
+
+/* ================================>>>>>>>>>>>>> START OURBLOG -> MAIN */
+main .our-blog-container .blog-posts {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 200px;
+    gap: 1rem;
+}
+
+.blog-post {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-post__link {
+    display: block;
+    height: 100%;
+    transition: all ease 0.5s;
+}
+
+.blog-post__link:hover {
+    transform: scale(1.25);
+}
+
+.blog-post .blog-date {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    font-family: var(--secondary-font);
+}
+
+.blog-post .blog-date span {
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.blog-post .blog-title {
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.blog-post .blog-title-link {
+    transition: color 0.2s;
+}
+
+.blog-post:hover .blog-title-link {
+    color: var(--lightRed);
+}
+
+#blog-post--one .blog-post__link {
+    background: linear-gradient(to top, #110f27, #2024434b, #3d2c6400),
+        url('./../media/images/img_17.jpg') no-repeat center / cover;
+}
+
+#blog-post--two .blog-post__link {
+    background: linear-gradient(to top, #110f27, #2024434b, #3d2c6400),
+        url('./../media/images/img_18.jpg') no-repeat center / cover;
+}
+
+#blog-post--three .blog-post__link {
+    background: linear-gradient(to top, #110f27, #2024434b, #3d2c6400),
+        url('./../media/images/img_19.jpg') no-repeat center / cover;
+}
+
+#blog-post--four .blog-post__link {
+    background: linear-gradient(to top, #110f27, #2024434b, #3d2c6400),
+        url('./../media/images/img_20.jpg') no-repeat center / cover;
+}
+
+#blog-post--five .blog-post__link {
+    background: linear-gradient(to top, #110f27, #2024434b, #3d2c6400),
+        url('./../media/images/img_21.jpg') no-repeat center / cover;
+}
+
+#blog-post--six .blog-post__link {
+    background: linear-gradient(to top, #110f27, #2024434b, #3d2c6400),
+        url('./../media/images/img_22.jpg') no-repeat center / cover;
+}
+
+#blog-post--seven .blog-post__link {
+    background: linear-gradient(to top, #110f27, #2024434b, #3d2c6400),
+        url('./../media/images/img_23.jpg') no-repeat center / cover;
+}
+
+#blog-post--eight .blog-post__link {
+    background: linear-gradient(to top, #110f27, #2024434b, #3d2c6400),
+        url('./../media/images/img_24.jpg') no-repeat center / cover;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH OURBLOG -> MAIN */

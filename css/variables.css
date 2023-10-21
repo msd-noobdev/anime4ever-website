@@ -1,0 +1,22 @@
+/* COLORS */
+:root {
+    --mainColor: #eef;
+    --darkBlue: #070720;
+    --lessDarkBlue: #0B0C2A;
+    --lightBlue: #152d5f;
+    --lightBlue2: #214594;
+    --lightestGray: #9C9C9C;
+    --lightestGray2: #CCC;
+    --lightGray: #4C4C4C;
+    --lightGray2: #B7B7B7;
+    --darkGray: #222222;
+    --lightRed: #E5343E;
+    --errColor: #ce000a;
+    --tagBackground: #3C3D55;
+    --commentBackground: #4a4b6b;
+    --buttonBackground: #27294b;
+    --videoControlsBackground: #33333399;
+    --starColor: #E89F12;
+    --primary-font: "Lato";
+    --secondary-font: "Oswald";
+}

@@ -1,0 +1,177 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./default.css");
+@import url("./helper.css");
+@import url("./preloadAnimation.css");
+@import url("./searchBox.css");
+@import url("./navbar.css");
+@import url("./bottomBar.css");
+@import url("./footer.css");
+
+/* ================================>>>>>>>>>>>>> START SIGNUP */
+.sign-up-container {
+    grid-template-columns: 1fr;
+}
+
+.form-container {
+    width: 100%;
+    background-color: var(--lightBlue);
+    border-radius: 1rem;
+    padding: 10rem;
+}
+
+.form-container .signup-form {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container h2 {
+    margin-bottom: 1.8rem;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.form-container .signup-form div {
+    margin-bottom: 1.8rem;
+    width: 80%;
+}
+
+.signup-form input {
+    background-color: var(--lessDarkBlue);
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+.input-checkbox-signup {
+    margin-top: 1.2rem;
+    text-transform: capitalize;
+}
+
+.input-checkbox-signup a {
+    color: var(--darkBlue);
+    font-weight: 700;
+}
+
+.signup-form input[type="checkbox"] {
+    width: auto;
+    color: var(--lessDarkBlue);
+}
+
+.signup-form input[type="submit"] {
+    display: block;
+    width: 80%;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.signup-form input[type="submit"]:hover {
+    background-color: var(--lightBlue2);
+}
+
+input.input-submit-disabled {
+    color: var(--darkGray) !important;
+}
+
+.input-submit-disabled:hover {
+    background-color: var(--lessDarkBlue) !important;
+    cursor: auto !important;
+}
+
+.form-container .sign-up-icon {
+    transform: translate(-50%, -150%);
+    float: right;
+}
+
+.inp-err{
+    color: var(--errColor);
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH SIGNUP */
+
+/* ================================>>>>>>>>>>>>> START LOGIN */
+.login-container {
+    grid-template-columns: 1fr;
+}
+
+.form-container .login-form {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container .login-form div {
+    margin-bottom: 2rem;
+    width: 80%;
+}
+
+.login-form input {
+    background-color: var(--lessDarkBlue);
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+.login-form input[type="submit"] {
+    display: block;
+    width: 80%;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: var(--lightBlue2);
+}
+
+.form-container .login-icon {
+    transform: translate(-50%, -150%);
+    float: right;
+}
+
+.form-container .login-icon.login-pass-input-icon {
+    cursor: pointer;
+}
+
+.login-form .redirect-signup-link-login a {
+    padding: 0.7rem;
+    color: var(--darkBlue);
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.login-form .redirect-signup-link-login a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--mainColor);
+    transition: width 0.2s;
+}
+
+.login-form .redirect-signup-link-login a:hover {
+    color: var(--lessDarkBlue);
+}
+
+.login-form .redirect-signup-link-login a:hover::after {
+    width: 100%;
+}
+
+.login-form .redirect-signup-link-login p {
+    padding-top: 0.6rem;
+}
+
+.login-form .redirect-signup-link-login {
+    margin-top: 0.6rem;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH LOGIN */

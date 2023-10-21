@@ -1,0 +1,44 @@
+/* ================================>>>>>>>>>>>>> START REVIEW COMMENTS */
+.review-item {
+    margin-bottom: 2rem;
+}
+
+.profile-review-person {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.review-content-container {
+    background-color: var(--commentBackground);
+    max-width: 600px;
+    border-radius: 0.5rem;
+    margin-left: 1.8rem;
+    padding: 1.2rem;
+    position: relative;
+}
+
+.review-content-container::before {
+    content: "";
+    display: block;
+    background-color: var(--commentBackground);
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: -5px;
+    top: 15px;
+    transform: rotate(45deg);
+    z-index: 0;
+}
+
+.review-person-name {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.dash-comment {
+    margin: 0 1rem;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH REVIEW COMMENTS */

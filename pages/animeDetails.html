@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTAWSOME STYLES -->
+    <link rel="stylesheet" href="./../vendor/FontAwesome5/all.min.css">
+
+    <!-- ADD STYLES -->
+    <link rel="stylesheet" href="./../css/animeDetails.css" />
+    <link rel="stylesheet" href="./../css/mediaQueries.css" />
+
+    <!-- FONTAWSOME SCRIPTS -->
+    <script defer src="./../vendor/FontAwesome5/all.min.js"></script>
+
+    <!-- ADD SCRIPTS -->
+    <script defer src="./../js/shared.js"></script>
+
+    <title>Anime</title>
+  </head>
+  <body>
+    <!-- PRELOAD ANIMATION -->
+    <div class="preload-animation">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- SEARCH BOX -->
+    <div class="search-box-container">
+      <div class="close-search-box">
+        <i class="fa fa-close show-search-box-animation"></i>
+      </div>
+      <div class="search-box">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="what are you looking for ?"
+        />
+        <i class="fa fa-search search-icon"></i>
+      </div>
+    </div>
+
+    <!-- ALL CONTENT OF PAGE -->
+    <section class="all-content">
+      <!-- NAVBAR -->
+      <nav>
+        <div class="nav-content container">
+          <!-- TOP BAR -->
+          <div class="top-bar d-flex">
+            <a href="./../index.html">
+              <div class="logo"><span>Ani</span><span>me</span></div>
+            </a>
+            <ul class="menu-list d-none">
+              <li class="menu-item text-muted">
+                <a href="./../index.html" class="menu-item-link">home</a>
+              </li>
+              <li class="menu-item text-muted category-item-top-bar active-item">
+                Categories
+                <ul class="categories-list-top-bar d-none">
+                  <li class="category-item">
+                    <a href="./categories.html"> Categories</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="./animeDetails.html"> Anime Details</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="./animeWatching.html"> Anime Watching</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="./blogDetails.html"> Blog Details</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="./signUp.html"> Sign Up</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="./login.html"> Login</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item text-muted">
+                <a href="./ourBlog.html" class="menu-item-link">Our Blog</a>
+              </li>
+              <li class="menu-item text-muted">
+                <a href="./contacts.html" class="menu-item-link">contact</a>
+              </li>
+            </ul>
+
+            <!-- SEARCH AND LOGIN -->
+            <div class="search-login">
+              <span class="search-icon-container">
+                <i class="fa fa-search"></i>
+              </span>
+              <span class="person-icon">
+                <a href="#">
+                  <i class="fa fa-user"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+          <!-- BOTTOM BAR -->
+          <div class="bottom-bar">
+            <div class="menu-button">
+              <span class="burger-menu"> Menu </span>
+              <i class="fa fa-bars"></i>
+            </div>
+            <div class="bottom-bar-menu">
+              <ul class="menu-list-bottom-bar">
+                <li class="menu-item-bottom-bar">
+                  <a href="./../index.html">Home</a>
+                </li>
+                <li class="menu-item-bottom-bar" id="category-item-bottom-menu">
+                  Categories
+                </li>
+                <ul class="categories-list-bottom-bar">
+                  <li class="category-item-bottom-bar">
+                    <a href="./categories.html">Categories</a>
+                  </li>
+                  <li class="category-item-bottom-bar">
+                    <a href="./animeDetails.html">Anime Details</a>
+                  </li>
+                  <li class="category-item-bottom-bar">
+                    <a href="./animeWatching.html">Anime Watching</a>
+                  </li>
+                  <li class="category-item-bottom-bar">
+                    <a href="./blogDetails.html">Blog Details</a>
+                  </li>
+                  <li class="category-item-bottom-bar">
+                    <a href="./signUp.html">Sign Up</a>
+                  </li>
+                  <li class="category-item-bottom-bar">
+                    <a href="./login.html">Login</a>
+                  </li>
+                </ul>
+                <li class="menu-item-bottom-bar">
+                  <a href="./ourBlog.html" class="menu-item-bottom-bar-link"
+                    >Our Blog</a
+                  >
+                </li>
+                <li class="menu-item-bottom-bar">
+                  <a href="./contacts.html">Contacts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- MAIN CONTENT OF ANIME WATCHING -->
+      <main>
+        <div class="container anime-details-container">
+          <!-- ANIME ITEM CONTAINER -->
+          <div class="anime-item-detail-container d-flex flex-column">
+            <div class="anime-detail-detail-cover-container">
+              <img
+                src="./../media/images/img_32.jpg"
+                alt=""
+                class="anime-detail-cover"
+              />
+            </div>
+            <section>
+              <div class="header-anime-item-detail d-flex flex-column">
+                <div>
+                  <h2 class="anime-item-detail-title">
+                    Re:Zero Starting Life in Another World
+                  </h2>
+                  <p class="anime-item-detail-info">
+                    <span class="anime-item-detail-japanease-ttl"
+                      >Re:ゼロから始める異世界生活</span
+                    >
+                    ,
+                    <span class="anime-item-detail-studio">white fox</span>
+                  </p>
+                </div>
+                <div class="anime-item-detail-votes">
+                  <div class="anime-stars">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i
+                    ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                    ><i class="fa fa-star-half"></i>
+                  </div>
+                  <p class="anime-votes">1,025 votes</p>
+                </div>
+              </div>
+              <div class="summary-anime-item-detail">
+                <p class="summary-text-anime-detail">
+                  Modern day teenage gamer, Natsuki Subaru, is thrust into a
+                  mysterious fantasy RPG styled world on his way home from a
+                  convenience store. As he searches for the heroine who he
+                  assumes summoned him he crosses paths with a silver haired
+                  half elf girl.
+                </p>
+              </div>
+              <div class="anime-item-detail-information d-grid">
+                <ul class="anime-item-detail-information-list">
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Type:</span
+                    ><span class="descript-info">TV Series</span>
+                  </li>
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Studios:</span
+                    ><span class="descript-info">white fox</span>
+                  </li>
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Date Aired:</span
+                    ><span class="descript-info">january 02, 2016</span>
+                  </li>
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Status:</span
+                    ><span class="descript-info">Airing</span>
+                  </li>
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Genre:</span
+                    ><span class="descript-info">Magic, isekai</span>
+                  </li>
+                </ul>
+                <ul class="anime-item-detail-information-list">
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Scores:</span
+                    ><span class="descript-info">8.31/ 1.51</span>
+                  </li>
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Rating:</span
+                    ><span class="descript-info">8.5/ 167</span>
+                  </li>
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Duration:</span
+                    ><span class="descript-info">24 min/ep</span>
+                  </li>
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Qulity:</span
+                    ><span class="descript-info">HD</span>
+                  </li>
+                  <li class="info-anime-item-detail">
+                    <span class="title-info">Views:</span
+                    ><span class="descript-info">658,423</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="anime-item-detail-btns btn-group d-flex">
+                <a href="#" class="follow-btn-anime-detail d-flex">
+                  <span class="d-block heart-icon__container"><i class="fas fa-heart"></i></span>
+                  <span class="d-block">follow</span>
+                </a>
+                <a href="#" class="watch-now-btn-anime-detail d-flex">
+                  <span class="d-block whatch-btn__text">watch now</span>
+                  <span class="d-block angle-icon__container"><i class="fas fa-angle-right"></i></span>
+                </a>
+              </div>
+            </section>
+          </div>
+
+          <!-- REVIEWS -->
+          <div class="reviews-container-anime-watching">
+            <h3 class="reviews-list-title anime-watching-title">reviews</h3>
+            <ul class="reviews-list">
+              <li class="review-item d-flex">
+                <img
+                  src="./../media/images/profile_01.jpg"
+                  alt="profile01"
+                  class="profile-review-person"
+                />
+                <div class="review-content-container">
+                  <div class="review-person-name d-flex">
+                    <h4 class="comment-name">jack racher</h4>
+                    <span class="dash-comment"> - </span>
+                    <p class="comment-time">1 hour ago</p>
+                  </div>
+                  <p class="review-item-comment">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque possimus neque velit eum ipsum maxime.
+                  </p>
+                </div>
+              </li>
+              <li class="review-item d-flex">
+                <img
+                  src="./../media/images/profile_02.jpg"
+                  alt="profile02"
+                  class="profile-review-person"
+                />
+                <div class="review-content-container">
+                  <div class="review-person-name d-flex">
+                    <h4 class="comment-name">car antony</h4>
+                    <span class="dash-comment"> - </span>
+                    <p class="comment-time">1 hour ago</p>
+                  </div>
+                  <p class="review-item-comment">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi quia cum dolorum ipsum eaque iusto praesentium
+                    modi totam odio esse.
+                  </p>
+                </div>
+              </li>
+              <li class="review-item d-flex">
+                <img
+                  src="./../media/images/profile_03.jpg"
+                  alt="profile03"
+                  class="profile-review-person"
+                />
+                <div class="review-content-container">
+                  <div class="review-person-name d-flex">
+                    <h4 class="comment-name">stephen chef</h4>
+                    <span class="dash-comment"> - </span>
+                    <p class="comment-time">1 hour ago</p>
+                  </div>
+                  <p class="review-item-comment">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Deserunt expedita magni cumque mollitia reiciendis ipsam
+                    laudantium harum quibusdam.
+                  </p>
+                </div>
+              </li>
+              <li class="review-item d-flex">
+                <img
+                  src="./../media/images/profile_04.jpg"
+                  alt="profile04"
+                  class="profile-review-person"
+                />
+                <div class="review-content-container">
+                  <div class="review-person-name d-flex">
+                    <h4 class="comment-name">makoto shinkai</h4>
+                    <span class="dash-comment"> - </span>
+                    <p class="comment-time">1 hour ago</p>
+                  </div>
+                  <p class="review-item-comment">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ipsum error aspernatur commodi.
+                  </p>
+                </div>
+              </li>
+              <li class="review-item d-flex">
+                <img
+                  src="./../media/images/profile_05.jpg"
+                  alt="profile05"
+                  class="profile-review-person"
+                />
+                <div class="review-content-container">
+                  <div class="review-person-name d-flex">
+                    <h4 class="comment-name">hayao myazaki</h4>
+                    <span class="dash-comment"> - </span>
+                    <p class="comment-time">1 hour ago</p>
+                  </div>
+                  <p class="review-item-comment">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Minus, dolor soluta porro consequuntur quos necessitatibus
+                    placeat ut esse ratione cum?
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- COMMENT -->
+          <div class="comment-container-anime-watching">
+            <h3 class="your-comment-title anime-watching-title">
+              your comment
+            </h3>
+            <textarea
+              name="review-comment"
+              id="review-comment"
+              placeholder="Your Comment ..."
+            ></textarea>
+            <button class="send-review-btn d-flex">
+              <i class="fa fa-paper-plane"></i>
+              <p>review</p>
+            </button>
+          </div>
+        </div>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="container footer-container d-flex">
+          <a href="./../index.html" class="logo"
+            ><span>Ani</span><span>me</span></a
+          >
+
+          <ul class="menu-list-footer d-flex">
+            <li class="menu-item-footer">
+              <a href="./../index.html" class="menu-item-footer-link">Home</a>
+            </li>
+            <li class="menu-item-footer">
+              <a href="./categories.html" class="menu-item-footer-link"
+                >Categories</a
+              >
+            </li>
+            <li class="menu-item-footer">
+              <a href="./ourBlog.html" class="menu-item-footer-link"
+                >Our Blog</a
+              >
+            </li>
+            <li class="menu-item-footer">
+              <a href="./contacts.html" class="menu-item-footer-link"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+
+          <em class="copyright">
+            Copyright ©2023 All rights reserved | This template is made with ♥
+            by <a href="#" class="creater">Mahdi Sedaghatzadeh</a>
+          </em>
+          <div class="icon-go-up">
+            <i class="fa fa-arrow-up footer-arrow-up-icon"></i>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

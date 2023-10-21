@@ -1,0 +1,10 @@
+/* ================================>>>>>>>>>>>>> START SECONDARY TITLE STYLES */
+.anime-watching-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    border-left: 0.5rem solid var(--lightRed);
+    padding: 1.4rem 1.8rem;
+    margin: 2.5rem 0 1.4rem 0;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH SECONDARY TITLE STYLES */

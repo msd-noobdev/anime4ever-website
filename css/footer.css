@@ -1,0 +1,77 @@
+/* ================================>>>>>>>>>>>>> START FOOTER */
+footer {
+    background-color: var(--darkBlue);
+}
+
+footer .footer-container {
+    padding: 5rem 0;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+footer .footer-container>* {
+    margin-bottom: 1.6rem;
+}
+
+footer .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer .logo span:nth-child(2) {
+    color: var(--lightRed);
+}
+
+.menu-list-footer {
+    width: 100%;
+    justify-content: center;
+}
+
+.menu-list-footer .menu-item-footer {
+    margin: 0 1.6rem;
+}
+
+.menu-list-footer .menu-item-footer .menu-item-footer-link {
+    color: var(--lightGray2);
+    padding: 0.5rem;
+}
+
+.footer-container .copyright {
+    text-align: center;
+    color: var(--lightGray);
+}
+
+.footer-container .icon-go-up {
+    background-color: var(--lightRed);
+    width: 5rem;
+    height: 5rem;
+    padding: 0.8rem;
+    position: absolute;
+    top: -2.5rem;
+    left: calc(50% - 2.5rem);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.footer-container .icon-go-up:hover .footer-arrow-up-icon {
+    animation: arrowUpButton 1s linear infinite normal;
+}
+
+@keyframes arrowUpButton {
+    from {
+        transform: translateY(3.5rem);
+    }
+
+    to {
+        transform: translateY(-3.5rem);
+    }
+}
+
+/* ================================>>>>>>>>>>>>> FINISH FOOTER */

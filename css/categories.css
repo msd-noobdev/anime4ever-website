@@ -1,0 +1,61 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./default.css");
+@import url("./helper.css");
+@import url("./preloadAnimation.css");
+@import url("./searchBox.css");
+@import url("./navbar.css");
+@import url("./bottomBar.css");
+@import url("./primaryTitle.css");
+@import url("./animeItemBox.css");
+@import url("./topViews.css");
+@import url("./asideNewComment.css");
+@import url("./tags.css");
+@import url("./footer.css");
+
+/* ================================>>>>>>>>>>>>> START CATEGORIES -> MAIN -> */
+.header-right-content {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.categories-container .article-left-container {
+    margin-bottom: 3.5rem;
+}
+
+.categories-container header {
+    border-bottom: 2px solid var(--lightGray);
+    padding-bottom: 1rem;
+}
+
+.categories-container header #categories-select {
+    color: var(--darkGray);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0.8rem 1.8rem;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.categories-container header #categories-select option {
+    color: var(--darkGray);
+}
+
+.pagination-list {
+    flex-wrap: wrap;
+}
+
+.pagination-list li {
+    margin-right: 1.4rem;
+}
+
+.pagination-list a {
+    padding: 1.5rem;
+    border: 2px solid var(--lightGray);
+    border-radius: 100%;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH CATEGORIES -> MAIN -> */

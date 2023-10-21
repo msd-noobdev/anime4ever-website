@@ -1,0 +1,20 @@
+/* ================================>>>>>>>>>>>>> START TAGS */
+.tags {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags .tag {
+    display: block;
+    color: var(--mainColor);
+    background-color: var(--tagBackground);
+    border-radius: 2rem;
+    padding: 4px 6px;
+    margin: 0 0.4rem 0.4rem 0;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-family: var(--secondary-font);
+}
+
+/* ================================>>>>>>>>>>>>> FINISH TAGS */

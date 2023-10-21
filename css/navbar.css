@@ -1,0 +1,130 @@
+/* ================================>>>>>>>>>>>>> START NAVBAR */
+nav {
+    background-color: var(--darkBlue);
+}
+
+.top-bar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.top-bar .active-item {
+    color: var(--mainColor)!important;
+    background-color: var(--lightRed);
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.top-bar .active-item .menu-item-link {
+    color: var(--mainColor) !important;
+}
+
+.top-bar .logo :nth-child(2) {
+    color: var(--lightRed);
+}
+
+.menu-list .menu-item {
+    color: var(--lightGray2);
+    padding: 1.6rem 3.2rem;
+    margin: 0;
+    transition: 0.2s;
+    text-transform: capitalize;
+}
+
+.menu-item .menu-item-link {
+    color: var(--lightGray2);
+}
+
+.menu-list .menu-item:hover .menu-item-link {
+    cursor: pointer;
+    color: var(--mainColor);
+}
+
+.search-login {
+    padding: 2rem 0;
+}
+
+.search-login>* {
+    cursor: pointer;
+}
+
+.search-icon-container {
+    margin-right: 2rem;
+}
+
+.category-item-top-bar {
+    position: relative;
+    cursor: pointer;
+}
+
+.categories-list-top-bar {
+    background-color: rgb(12, 12, 51, 0.9);
+    box-shadow: 0 0 5px 1px rgba(12, 12, 51, 0.9);
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+    left: 0;
+    top: 5rem;
+    padding: 1.6rem 3.2rem;
+    opacity: 0;
+    cursor: default;
+}
+
+.categories-list-top-bar .category-item {
+    margin-bottom: 1rem;
+}
+
+.categories-list-top-bar .category-item a {
+    color: var(--mainColor);
+    width: 100%;
+    padding: 0.4rem 0;
+}
+
+.categories-list-top-bar .category-item a:hover {
+    color: var(--lightestGray2);
+}
+
+.category-item-top-bar:hover .categories-list-top-bar {
+    display: block;
+    animation: showCategoryListAnimationTopbar 0.5s ease forwards;
+}
+
+.category-item-top-bar:not(:hover) .categories-list-top-bar {
+    display: block;
+    animation: hideCategoryListAnimationTopbar 0.5s ease forwards;
+}
+
+@keyframes hideCategoryListAnimationTopbar {
+    from {
+        top: 6rem;
+        opacity: 1;
+    }
+
+    to {
+        top: 7rem;
+        opacity: 0;
+        z-index: -50;
+    }
+
+}
+
+@keyframes showCategoryListAnimationTopbar {
+    from {
+        top: 7rem;
+        opacity: 0;
+        z-index: 50;
+    }
+
+    to {
+        top: 6rem;
+        opacity: 1;
+    }
+
+}
+
+/* ================================>>>>>>>>>>>>> FINISH NAVBAR */

@@ -1,0 +1,96 @@
+/* ================================>>>>>>>>>>>>> START ANIME ITEM BOX */
+.item-right-contents {
+    position: relative;
+    border-radius: 0.4rem;
+    background-color: rgba(235, 235, 235, 0.18);
+    box-shadow: 0 0 4px 0 rgba(235, 235, 235, 0.18);
+}
+
+.img-container-item {
+    border-radius: 0.4rem 0.4rem 0 0;
+    display: block;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-container-item img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s;
+    object-fit: cover;
+}
+
+.img-container-item img:hover {
+    transform: scale(1.2);
+}
+
+.img-container-item .episode {
+    color: var(--mainColor);
+    background-color: var(--lightRed);
+    position: absolute;
+    top: 0.6rem;
+    left: 0.6rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.img-container-item .comments {
+    color: var(--mainColor);
+    background-color: var(--darkGray);
+    position: absolute;
+    bottom: 0.6rem;
+    left: 0.6rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+}
+
+.img-container-item .views {
+    color: var(--mainColor);
+    background-color: var(--darkGray);
+    position: absolute;
+    bottom: 0.6rem;
+    right: 0.6rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+}
+
+.item-information-container {
+    padding: 1.4rem 1.4rem 6rem;
+}
+
+.item-information-container .item-title {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.read-more-button {
+    display: block;
+    font-size: 1.5rem;
+    width: fit-content;
+    margin-top: 1rem;
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--buttonBackground);
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    position: absolute;
+    right: 0.8rem;
+    bottom: 0.8rem;
+}
+
+.read-more-button:hover {
+    opacity: 1;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH ANIME ITEM BOX */

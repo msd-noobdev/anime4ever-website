@@ -1,0 +1,51 @@
+/* ================================>>>>>>>>>>>>> START NEW COMMENT */
+.new-comment-container .item-comment {
+    position: relative;
+    margin-bottom: 2rem;
+    height: 100px;
+}
+
+.item-comment .new-comment-img {
+    width: 25%;
+    height: inherit;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    object-fit: cover;
+    object-position: center;
+}
+
+.item-comment .tags {
+    position: absolute;
+    left: 30%;
+    top: 8px;
+}
+
+.item-comment .new-comment-title {
+    position: absolute;
+    left: 30%;
+    top: 40px;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+.item-comment .new-comment-views-container {
+    position: absolute;
+    left: 30%;
+    bottom: 8px;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.item-comment .new-comment-views-container .new-comment-views {
+    padding-left: 0.5rem;
+    color: var(--lightGray2);
+}
+
+.item-comment .new-comment-views-container i {
+    color: var(--lightGray2);
+}
+
+/* ================================>>>>>>>>>>>>> FINISH NEW COMMENT */

@@ -1,0 +1,44 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./default.css");
+@import url("./helper.css");
+@import url("./preloadAnimation.css");
+@import url("./searchBox.css");
+@import url("./navbar.css");
+@import url("./bottomBar.css");
+@import url("./swiperSlider.css");
+@import url("./primaryTitle.css");
+@import url("./animeItemBox.css");
+@import url("./topViews.css");
+@import url("./asideNewComment.css");
+@import url("./tags.css");
+@import url("./footer.css");
+
+/* ================================>>>>>>>>>>>>> START MAIN */
+/* ================================>>>>>>>>>>>>> START LEFT CONTENT */
+
+:is(.trending-now, .popular-shows, .recently-added-news, .live-action) {
+    margin-bottom: 10rem;
+}
+
+.article-left-container ul {
+    gap: 1.5rem;
+}
+
+.header-right-content {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header-right-content .view-all-container span {
+    text-transform: uppercase;
+    padding-right: 0.8rem;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH LEFT CONTENT */
+
+/* ================================>>>>>>>>>>>>> START RIGHT CONTENT */
+/* ================================>>>>>>>>>>>>> FINISH RIGHT COMMENT */
+
+/* ================================>>>>>>>>>>>>> FINISH MAIN */

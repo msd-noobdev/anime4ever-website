@@ -1,0 +1,145 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./default.css");
+@import url("./helper.css");
+@import url("./preloadAnimation.css");
+@import url("./searchBox.css");
+@import url("./navbar.css");
+@import url("./bottomBar.css");
+@import url("./footer.css");
+
+/* ================================>>>>>>>>>>>>> START CONTACTS -> MAIN -> HEADER */
+main header.header-contacts {
+    background: linear-gradient(to top, #110f27, #2024434b, #3d2c6400), url(./../media/images/img_18.jpg) no-repeat center / cover;
+    padding: 40px 32px;
+    margin-bottom: 32px;
+    line-height: 32px;
+}
+
+main header.header-contacts .header-contacts-title {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH CONTACTS -> MAIN -> HEADER */
+
+/* ================================>>>>>>>>>>>>> START CONTACTS -> MAIN -> CONTACT INFORMATION */
+.contacts-content-in-main .contact-information {
+    background: linear-gradient(to top, #110f27, #202443cc, #3d2c64aa), url(./../media/images/img_11.jpg) no-repeat center / cover;
+    width: 40%;
+    height: 400px;
+    border-radius: 0.4rem;
+    float: left;
+    transform: translateY(50px);
+    box-shadow: 0 1px 12px 1px var(--darkBlue);
+}
+
+.contacts-content-in-main .contact-information .contact-information-content {
+    width: 80%;
+    height: inherit;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-information-content .contact-information-title {
+    text-transform: capitalize;
+    font-size: 1.7rem;
+}
+
+.contact-information-content .social-media {
+    width: 30%;
+    justify-content: space-between;
+}
+
+.contact-information__icon {
+    margin-right: 1rem;
+    transition: color 0.2s;
+}
+
+:is(.contact-address, .contact-phone, .contact-email) {
+    align-items: center;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH CONTACTS -> MAIN -> CONTACT INFORMATION */
+
+/* ================================>>>>>>>>>>>>> START CONTACTS -> MAIN -> FORM */
+.contact-form-container {
+    height: 500px;
+    width: 100%;
+    padding: 50px 0;
+    margin: 0 auto;
+    background-color: var(--lightBlue2);
+    border-radius: 0.4rem !important;
+}
+
+.contact-form-container form {
+    height: 400px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+    padding: 0 1.5rem;
+}
+
+.contact-form-container form input {
+    width: 100%;
+    background-color: var(--darkBlue);
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 0.8rem 1.2rem;
+}
+
+.contact-form-container form select {
+    width: 100%;
+    background-color: var(--darkBlue);
+    border: 0;
+    outline: 0;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    text-transform: capitalize;
+}
+
+.contact-form-container form select option {
+    text-transform: capitalize;
+}
+
+.contact-form-container div p {
+    text-transform: capitalize;
+    margin-bottom: 0.4rem;
+}
+
+.contact-form-container .contact-form-header {
+    grid-column: span 2;
+}
+
+.contact-form-container .contact-form-header h4 {
+    padding-right: 0.9rem;
+}
+
+.contact-form-container .contact-message-container {
+    grid-column: span 2;
+}
+
+.contact-form-container .contact-message-container textarea {
+    width: 100%;
+    background-color: var(--darkBlue);
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 0.9rem 1.2rem;
+    resize: none;
+}
+
+#contact-submit {
+    cursor: pointer;
+    border: 1px solid var(--darkBlue);
+    background-color: transparent;
+    transition: all 0.2s;
+}
+
+#contact-submit:hover {
+    background-color: var(--lessDarkBlue);
+}
+
+/* ================================>>>>>>>>>>>>> FINISH CONTACTS -> MAIN -> FORM */

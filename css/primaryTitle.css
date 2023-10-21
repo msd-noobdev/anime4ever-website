@@ -1,0 +1,9 @@
+/* ================================>>>>>>>>>>>>> START PRIMARY STYLES */
+.header-right-content .article-main-title {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding: 1.2rem 1.5rem;
+    border-left: 4px solid var(--lightRed);
+}
+
+/* ================================>>>>>>>>>>>>> FINISH PRIMARY TITLE STYLES */

@@ -1,0 +1,110 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./default.css");
+@import url("./helper.css");
+@import url("./preloadAnimation.css");
+@import url("./searchBox.css");
+@import url("./navbar.css");
+@import url("./bottomBar.css");
+@import url("./secondaryTitle.css");
+@import url("./reviewComments.css");
+@import url("./commentInput.css");
+@import url("./footer.css");
+
+/* ================================>>>>>>>>>>>>> START ANIME DETAILS -> MAIN -> ANIME ITEM */
+.anime-item-detail-container>* {
+    flex-wrap: wrap;
+}
+
+.anime-detail-cover {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.header-anime-item-detail {
+    justify-content: space-between;
+    margin-bottom: 1.8rem;
+}
+
+.anime-item-detail-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.anime-item-detail-info, .anime-item-detail-info span {
+    text-transform: capitalize;
+    color: var(--lightestGray);
+}
+
+
+.anime-item-detail-votes .anime-stars i {
+    color: var(--starColor);
+    font-size: 1.8rem;
+}
+
+.anime-item-detail-votes .anime-votes {
+    color: var(--lightestGray);
+    text-transform: capitalize;
+    margin-left: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.summary-text-anime-detail {
+    color: var(--lightestGray2);
+    margin-bottom: 2rem;
+}
+
+.anime-item-detail-information-list {
+    margin-bottom: 1.8rem;
+}
+
+.info-anime-item-detail {
+    margin-bottom: 0.6rem;
+}
+
+.info-anime-item-detail .title-info {
+    display: inline-block;
+    min-width: 80px;
+    color: var(--lightestGray);
+    text-transform: capitalize;
+}
+
+.info-anime-item-detail .descript-info {
+    text-transform: capitalize;
+}
+
+.anime-item-detail-btns a {
+    border-radius: 0.5rem;
+    background-color: var(--lightRed);
+    text-transform: uppercase;
+    padding: 0 2rem;
+    margin-right: 1rem;
+    font-weight: 800;
+}
+
+:is(.follow-btn-anime-detail, .watch-now-btn-anime-detail) {
+    align-items: center;
+}
+
+.follow-btn-anime-detail {
+    margin-right: 1rem;
+}
+
+.whatch-btn__text{
+    margin-right: 0.6rem;
+}
+
+.heart-icon__container{
+    margin-right: 0.6rem;
+}
+
+.angle-icon__container {
+    border-left: 0.4rem solid var(--lessDarkBlue);
+    padding: 0.6rem 0 0.6rem 0.6rem;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH ANIME DETAILS -> MAIN -> ANIME ITEM */

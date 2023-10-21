@@ -1,0 +1,56 @@
+/* ================================>>>>>>>>>>>>> START DEFAULTS STYLES */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--mainColor);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 52.5%;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+:is(input, textarea) {
+    font-family: var(--primary-font);
+}
+
+main {
+    background-color: var(--lessDarkBlue);
+    padding: 5rem 0;
+}
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.all-content {
+    transition: 1s;
+}
+
+.content-main {
+    margin-top: 5rem;
+}
+
+:is(.left-content, .right-content) {
+    margin-bottom: 5rem;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH DEFAULTS STYLES */

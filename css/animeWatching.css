@@ -1,0 +1,155 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./default.css");
+@import url("./helper.css");
+@import url("./preloadAnimation.css");
+@import url("./searchBox.css");
+@import url("./navbar.css");
+@import url("./bottomBar.css");
+@import url("./secondaryTitle.css");
+@import url("./reviewComments.css");
+@import url("./commentInput.css");
+@import url("./footer.css");
+
+/* ================================>>>>>>>>>>>>> START ANIME WATCHING -> MAIN */
+.video-container-anime-watching {
+    width: 100%;
+}
+
+.video-container-anime-watching {
+    position: relative;
+}
+
+.video-container-anime-watching video {
+    width: 100%;
+}
+
+.list-of-episodes {
+    flex-wrap: wrap;
+}
+
+.list-of-episodes .anime-episode-link {
+    background-color: var(--tagBackground);
+    border-radius: 0.5rem;
+    font-weight: 500;
+    padding: 1rem 1.8rem;
+    margin: 0 1.8rem 1.8rem 0;
+    display: block;
+}
+
+/* ================================>>>>>>>>>>>>> START ANIME WATCHING -> VIDEO PLAYER */
+.custom-video-player {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--videoControlsBackground);
+    transition: 0.2s;
+}
+
+.video-slider-duration {
+    width: 90%;
+    margin: auto;
+    padding: 1.8rem 0 0.9rem;
+}
+
+.video-slider-duration input {
+    width: 100%;
+}
+
+.other-controls {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.center-options {
+    max-width: 100%;
+    align-items: center;
+}
+
+.center-options span {
+    display: block;
+}
+
+.center-options .center-controls {
+    cursor: pointer;
+    align-items: center;
+}
+
+.center-options .center-controls span {
+    display: block;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.time-past, .remaining-time {
+    font-weight: 500;
+    margin: 1.2rem;
+}
+
+.volume-icon {
+    margin-right: 1.2rem;
+}
+
+.custom-video-player input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.play-pause {
+    padding: 0.8rem !important;
+    margin: 1.5rem 0.8rem !important;
+    border-radius: 100%;
+    border: 2px solid var(--mainColor);
+}
+
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+.custom-video-player input[type="range"]::-webkit-slider-runnable-track {
+    cursor: pointer;
+    background-color: var(--darkBlue);
+    border-radius: 1.2rem;
+    height: 8px;
+}
+
+.custom-video-player input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--lightBlue2);
+    margin-top: -0.4rem;
+    border-radius: 100%;
+}
+
+.custom-video-player input[type="range"]::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 13px 1px var(--mainColor);
+}
+
+
+/******** Firefox ********/
+.custom-video-player input[type="range"]::-moz-range-track {
+    cursor: pointer;
+    background-color: var(--darkBlue);
+    border-radius: 1.2rem;
+    height: 8px;
+}
+
+
+.custom-video-player input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--lightBlue2);
+    margin-top: -0.4rem;
+    border-radius: 100%;
+}
+
+/* ================================>>>>>>>>>>>>> FINISH ANIME WATCHING -> VIDEO PLAYER */
+
+/* ================================>>>>>>>>>>>>> FINISH ANIME WATCHING -> MAIN */
