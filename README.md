@@ -1,4 +1,4 @@
-# <a href="https://sedaghatzadeh-cv.iran.liara.run/">sedaghatzadeh-cv</a> - My CV website
+# <a href="https://mahdisedaghatzadeh.github.io/anime4ever-website/">anime4ever</a> - stream online anime
 This website is only has frontend. subject of website is watching stream online anime.
 <hr />
 <h3>Technologies:</h3>
@@ -8,4 +8,4 @@ This website is only has frontend. subject of website is watching stream online 
     <li>JavaScript</li>
     <li>SwiperJS</li>
     <li>Fontawsome icons</li>
-</ul>
+</ul>   
